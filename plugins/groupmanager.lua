@@ -3905,111 +3905,111 @@ if not lang then
 text = [[
 *KING Bot Commands:*
 *!setmanager* `[username|id|reply]` 
-_Add User To Group Admins(CreatorBot)_
+_افزودن ادمین گروه(درصورت اینکه ربات سازنده  گروه)_
 *!Remmanager* `[username|id|reply]` 
- _Remove User From Owner List(CreatorBot)_
+ _حذف ادمین گروه(درصورت اینکه ربات سازنده  گروه)_
 *!setowner* `[username|id|reply]` 
-_Set Group Owner(Multi Owner)_
+_انتخاب مالک گروه(قابل انتخاب چند مالک)_
 *!remowner* `[username|id|reply]` 
- _Remove User From Owner List_
+ _ حذف کردن فرد از فهرست مالکان گروه_
 *!promote* `[username|id|reply]` 
-_Promote User To Group Admin_
+_ارتقا مقام کاربر به مدیر گروه_
 *!demote* `[username|id|reply]` 
-_Demote User From Group Admins List_
+_تنزیل مقام مدیر به کاربر_
 *!setflood* `[2-50]`
-_Set Flooding Number_
+_تنظیم حداکثر تعداد پیام مکرر_
 *!silent* `[username|id|reply]` 
-_Silent User From Group_
+_بیصدا کردن کاربر در گروه_
 *!unsilent* `[username|id|reply]` 
-_Unsilent User From Group_
+_در آوردن کاربر از حالت بیصدا در گروه_
 *!kick* `[username|id|reply]` 
-_Kick User From Group_
+_حذف کاربر از گروه_
 *!ban* `[username|id|reply]` 
-_Ban User From Group_
+_مسدود کردن کاربر از گروه_
 *!unban* `[username|id|reply]` 
-_UnBan User From Group_
+_در آوردن از حالت مسدودیت کاربر از گروه_
 *!res* `[username]`
-_Show User ID_
+_نمایش شناسه کاربر_
 *!id* `[reply]`
-_Show User ID_
+_نمایش شناسه کاربر_
 *!whois* `[id]`
-_Show User's Username And Name_
+_نمایش نام کاربر, نام کاربری و اطلاعات حساب_
 *!lock* `[link | join | tag | edit | arabic | webpage | bots | spam | flood | markdown | mention | pin | cmds]`
-_If This Actions Lock, Bot Check Actions And Delete Them_
+_در صورت قفل بودن فعالیت ها, ربات آنهارا حذف خواهد کرد_
 *!unlock* `[link | join | tag | edit | arabic | webpage | bots | spam | flood | markdown | mention | pin | cmds]`
-_If This Actions Unlock, Bot Not Delete Them_
+_در صورت قفل نبودن فعالیت ها, ربات آنهارا حذف خواهد کرد_
 *!mute* `[all | gif | photo | document | sticker | keyboard | video | text | forward | location | audio | voice | contact | all]`
-_If This Actions Lock, Bot Check Actions And Delete Them_
+_در صورت بیصدد بودن فعالیت ها, ربات آنهارا حذف خواهد کرد_
 *!mutetime* `(hour) (minute) (seconds)`
-_Mute group at this time_ 
+_بیصدا کردن گروه با ساعت و دقیقه و ثانیه _ 
 *!mutehours* `(number)`
-_Mute group at this time_ 
+_بیصدا کردن گروه در ساعت _ 
 *!muteminutes* `(number)`
-_Mute group at this time_ 
+_بیصدا کردن گروه در دقیقه _ 
 *!muteseconds* `(number)`
-_Mute group at this time_
+_بیصدا کردن گروه در ثانیه _
 *!unmute* `[all | gif | photo | document | sticker | keyboard | video | text | forward | location | audio | voice | contact | all]`
-_If This Actions Unlock, Bot Not Delete Them_
+_در صورت بیصدا نبودن فعالیت ها, ربات آنهارا حذف نخواهد کرد_
 *!set*`[rules | name | link | about | welcome]`
-_Bot Set Them_
+_ربات آنهارا ثبت خواهد کرد_
 *!clean* `[bans | mods | bots | rules | about | silentlist | filtelist | welcome]`   
-_Bot Clean Them_
+_ربات آنهارا پاک خواهد کرد_
 *!filter* `[word]`
-_Word filter_
+_فیلترکلمه مورد نظر_
 *!unfilter* `[word]`
-_Word unfilter_
+_ازاد کردن کلمه مورد نظر_
 *!pin* `[reply]`
-_Pin Your Message_
+_ربات پیام شمارا در گروه سنجاق خواهد کرد_
 *!unpin* 
-_Unpin Pinned Message_
+_ربات پیام سنجاق شده در گروه را حذف خواهد کرد_
 *!welcome enable/disable*
-_Enable Or Disable Group Welcome_
+_فعال یا غیرفعال کردن خوشآمد گویی_
 *!settings*
-_Show Group Settings_
+_نمایش تنظیمات گروه_
 *!cmds* `[member | moderator | owner]`	
-_set cmd_
+_نتخاب کردن قفل cmd بر چه مدیریتی_
 *!mutelist*
-_Show Mutes List_
+_نمایش فهرست بیصدا های گروه_
 *!whitelist* `[+ | -]`	
-_Add User To White List_
+_افزودن افراد به لیست سفید_
 *!silentlist*
-_Show Silented Users List_
+_نمایش فهرست بیصدا های گروه_
 *!filterlist*
-_Show Filtered Words List_
+_نمایش لیست کلمات فیلتر شده_
 *!banlist*
-_Show Banned Users List_
+_نمایش افراد مسدود شده از گروه_
 *!ownerlist*
-_Show Group Owners List_ 
+_نمایش فهرست مالکان گروه _ 
 *!whitelist*
-_Show Group whitelist List_
+_نمایش افراد سفید شده از گروه_
 *!modlist* 
-_Show Group Moderators List_
+_نمایش فهرست مدیران گروه_
 *!rules*
-_Show Group Rules_
+_نمایش قوانین گروه_
 *!about*
-_Show Group Description_
+_نمایش درباره گروه_
 *!id*
-_Show Your And Chat ID_
+_نمایش شناسه شما و گروه_
 *!gpinfo*
-_Show Group Information_
+_نمایش اطلاعات گروه_
 *!newlink*
-_Create A New Link_
+_ساخت لینک جدید_
 *!newlink pv*
-_Create A New Link The Pv_
+_ساخت لینک جدید در پیوی_
 *!link*
-_Show Group Link_
+_نمایش لینک گروه_
 *!link pv*
-_Send Group Link In Your Private Message_
+_ارسال لینک گروه به چت خصوصی شما_
 *!setlang fa*
-_Set Persian Language_
+_تنظیم زبان انگلیسی_
 *!setwelcome [text]*
-_set Welcome Message_
+_ثبت پیام خوش آمد گویی_
 *!helptools*
-_Show Tools Help_
+_نمایش راهنمای ابزار_
 *!helpfun*
-_Show Fun Help_
+_نمایش راهنمای سرگرمی_
 *!helpmute*
-_Show mute Help_
+_نمایش دستورات بیصدا های گروه_
 _You Can Use_ *[!/#]* _To Run The Commands_
 _This Help List Only For_ *Moderators/Owners!*
 _Its Means, Only Group_ *Moderators/Owners* _Can Use It!_
