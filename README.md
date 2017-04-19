@@ -44,11 +44,6 @@ cd $HOME && git clone https://github.com/BeyondTeam/BDReborn.git && cd Star-Quee
 
 * * *
 
-# Developer!
-
-[Amirhosein](https://github.com/IRSecurityTG) ([Telegram](https://telegram.me/IRSecurityTG))
-
-
 ### Our Telegram channel:
 
 [@IRSecurity_Team](https://telegram.me/IRSecurity_Team)
